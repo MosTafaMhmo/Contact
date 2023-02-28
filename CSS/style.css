@@ -1,0 +1,228 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: "cairo", sans-serif;
+
+}
+
+.contact {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#0c0b21, #0c0b21, #0c0b21, #280443);
+    overflow: hidden;
+}
+
+.contact .container {
+    position: relative;
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: transparent;
+    /* animation: rotat .2s linear forwards;
+    animation-delay: 2s; */
+    /* transform: rotate(0deg); */
+}
+
+/* @keyframes rotat {
+    100% {
+        transform: rotate(360deg);
+    }
+
+} */
+
+.contact .container .circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 0 0 10px rgb(68, 50, 88) inset;
+}
+
+.contact .container .c1 {
+    width: 00px;
+    height: 000px;
+    /* background-color: #250541; */
+    background-color: transparent;
+    animation: circle1 .7s linear forwards;
+    animation-delay: 1s;
+}
+
+@keyframes circle1 {
+    100% {
+        width: 420px;
+        height: 420px;
+    }
+
+}
+
+.contact .container .c2 {
+    width: 00px;
+    height: 00px;
+    background-color: #250448;
+    animation: circle2 .65s linear forwards;
+    opacity: .5;
+}
+
+@keyframes circle2 {
+    100% {
+        width: 300px;
+        height: 300px;
+    }
+
+}
+
+.contact .container .c3 {
+    width: 200px;
+    height: 200px;
+    background-color: #48097c;
+}
+
+
+
+.contact .container .c4 {
+    width: 100px;
+    height: 100px;
+    background-color: #a00af7;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1B1734;
+    box-shadow: 0 0 5px #ffffff inset;
+}
+
+.contact .container .c {
+    background-color: #3a2559;
+    box-shadow: 3px 3px 10px #570487 inset;
+    opacity: 0;
+}
+
+.contact .container .c a {
+    color: white;
+}
+
+.contact .container .l1 {
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    font-size: 20px;
+    animation: l1 .5s linear forwards;
+    animation-delay: 1.15s;
+    box-shadow: -3px 3px 10px #570487 inset;
+}
+
+@keyframes l1 {
+    100% {
+        left: 21%;
+        opacity: 1;
+    }
+
+}
+
+.contact .container .l2 {
+    width: 65px;
+    height: 65px;
+
+    left: 50%;
+    font-size: 30px;
+    animation: l2 .5s linear forwards;
+    animation-delay: .65s;
+    box-shadow: -3px 3px 10px #570487 inset;
+}
+
+@keyframes l2 {
+    100% {
+        left: 30%;
+        opacity: 1;
+    }
+
+}
+
+.contact .container .l3 {
+    width: 80px;
+    height: 80px;
+
+    left: 50%;
+    font-size: 45px;
+
+    animation: l3 .5s linear forwards;
+    animation-delay: .15s;
+    box-shadow: -3px 3px 10px #570487 inset;
+}
+
+@keyframes l3 {
+    100% {
+        left: 40%;
+        opacity: 1;
+    }
+
+}
+
+.contact .container .l4 {
+    width: 80px;
+    height: 80px;
+    left: 50%;
+    font-size: 45px;
+    animation: l4 .5s linear forwards;
+    animation-delay: .15s;
+}
+
+@keyframes l4 {
+    100% {
+        left: 60%;
+        opacity: 1;
+    }
+
+}
+
+.contact .container .l5 {
+    width: 65px;
+    height: 65px;
+
+    left: 50%;
+    font-size: 30px;
+
+
+    animation: l5 .5s linear forwards;
+    animation-delay: .65s;
+}
+
+@keyframes l5 {
+    100% {
+        left: 70%;
+        opacity: 1;
+    }
+
+}
+
+.contact .container .l6 {
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    font-size: 20px;
+    animation: l6 .5s linear forwards;
+    animation-delay: 1.15s;
+}
+
+@keyframes l6 {
+    100% {
+        left: 79%;
+        opacity: 1;
+    }
+
+}
